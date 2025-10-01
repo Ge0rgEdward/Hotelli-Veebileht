@@ -236,6 +236,33 @@ footer {
     width: 70px;
 }
 
+#contact-form .form-group {
+    margin-bottom: 20px;
+}
+
+#contact-form .form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#contact-form .form-group input,
+#contact-form .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 3px solid #ddd;
+}
+
+#contact-form .form-group textarea {
+    height: 200px;
+}
+
+#contact-form .form-group input:focus,
+#contact-form .form-group textarea:focus {
+    outline: none;
+    border-color: #f7c08a;
+}
+
+
 
 
 
