@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="HTML,CSS,HTML5,CSS3"/>
     <meta name="Auhtor" content="Georg Piil"/>
+    <script src="https://kit.fontawesome.com/09b73c7082.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <title>Hotell | Avaleht</title>
 </head>
@@ -26,14 +27,50 @@
         <!-- Vitriin -->
         <div id="showcase">
             <div class="container">
-                <div class="shocase-content"></div>
-                    <h1><span class="text-primary">Tere Tulemast</span>VOCO Hotelli</h1>
+                <div class="showcase-content">
+                    <h1><span class="text-primary">Tere Tulemast</span> VOCO Hotelli<span class="text-primary">!</span></h1>
                     <p>Meie hotell pakub parimat teenindust ja mugavust.</p>
-                    <a href="about.html">Rohkem meist</a>
+                    <a class="btn" href="about.html">Rohkem meist</a>
                 </div>
             </div>
         </div> 
     </header>
+
+    <section id="info" class="bg-dark">
+        <img src="../img/photo-1.jpg" class="info-img">
+        <div class="info-content">
+            <h2><span class="text-primary">Ajalugu</span></h2>
+            <p>VOCO Hotell avati 2020. aastal, et pakkuda külalistele unustamatut kogemust. Meie hotell asub kaunis Tartu linnaosas, kus on võimalik nautida rahu ja vaikust.</p>
+            <a class="btn btn-light" href="about.html">Loe rohkem</a>
+        </div>
+    </section>
+    
+
+    <!-- Võimalused -->
+
+    <section id="features">
+        <div class="box bg-light">
+            <i class="fa-solid fa-map-location fa-3x"></i>
+            <h3>Asukoht</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <div class="box bg-primary">
+            <i class="fa-solid fa-burger fa-3x"></i>
+            <h3>Söök</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <div class="box bg-dark">
+            <i class="fa-solid fa-futbol fa-3x"></i>
+            <h3>Sport</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+    </section>
+
+    <div class="clear"></div>
+
+    <footer id="footer">
+        <p> VOCO &copy;2025</p>
+    </footer>
     
 </body>
 </html>
